@@ -4,8 +4,6 @@ import { fetchData } from './API';
 
 import { Cards, Chart, Picker } from './components/index';
 import styles from './App.module.css';
-// import covid19CoverImage from './COVID-19.png';
-
 
 class App extends React.Component{//Components...
   state = {//Application State..
@@ -34,9 +32,6 @@ class App extends React.Component{//Components...
 
     return(//Returning this statement..
       <div className={styles.container}>
-          {/* <div>
-            <img src={covid19CoverImage} alt='COVID-19' height={80} width={600}/>
-          </div> */}
 
         <Cards data={data} />
         <Picker changeHandler={this.handleChange} />

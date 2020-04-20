@@ -21,7 +21,7 @@ const Chart = ({dataChart: {confirmed, recovered, deaths} ,countryChart}) => {
     const LineChart = (
         chartData.length !== 0 
         ? (
-            <Line 
+            <Line
                 data= {{
                     labels: chartData.map(({date}) => date),
                     datasets: [{

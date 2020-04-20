@@ -19,7 +19,7 @@ const Picker = ({changeHandler}) => {
 
     return (
         <FormControl className={styles.selectOption}>
-            <NativeSelect onChange={(event) => changeHandler(event.target.value)}>
+            <NativeSelect style={{background: '#ffffffde'}} onChange={(event) => changeHandler(event.target.value)}>
                 <option value=''>Global</option>
                 {/* { console.log('Piceker',countries) } */}
                 {countries.map((selectItem, index) => (<option key={index} value={selectItem}>{selectItem}</option>))}
