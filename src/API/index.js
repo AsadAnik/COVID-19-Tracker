@@ -2,6 +2,9 @@ import axios from 'axios';
 ///The API URL..
 const apiURL = 'https://covid19.mathdro.id/api';
 
+//Api for Loading
+export const send_API_ToLoading = apiURL;
+
 ///Cards_Data Fetchs...
 export const fetchData = async(country) => {
    //To selectOption Changer with country... 

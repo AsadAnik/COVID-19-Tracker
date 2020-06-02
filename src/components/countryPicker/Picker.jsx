@@ -8,6 +8,7 @@ const Picker = ({changeHandler}) => {
 
     const [countries, setCountries] = useState([]);
 
+ ///LifeCycle function from Hooks..   
     useEffect(() => {
         const fetchDataForCountries = async () => {
             setCountries(await fetchDataOption())
