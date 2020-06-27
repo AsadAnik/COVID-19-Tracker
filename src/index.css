@@ -5,14 +5,14 @@ body{
     /* background: rgb(236, 236, 236) !important; */
     background: url('./bg.png') no-repeat center center fixed;
     background-size: cover;
-    background-color: green;
+    /* background-color: green; */
 }
-
+/* 
 .darkerBack{
     padding: 0;
     margin: 0;
     background: #00000052; 
-}
+} */
 
 /*Light Theme ( bg.png )*/
 /*Darker Theme ( bg-dark.png )*/

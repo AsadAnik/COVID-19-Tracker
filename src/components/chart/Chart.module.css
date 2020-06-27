@@ -4,8 +4,12 @@
     width: 80%;
 }
 
+
 @media (max-width: 770px){
     .container{
-        width: 100%;
+        width: 120%;
     }
+    /* canvas.chartjs-render-monitor{
+        width: 120%;
+    } */
 }

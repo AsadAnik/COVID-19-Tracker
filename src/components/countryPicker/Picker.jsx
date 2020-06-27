@@ -16,7 +16,7 @@ const Picker = ({changeHandler}) => {
         fetchDataForCountries()
     }, [])
 
-    console.log('Picker Data : ', countries)
+    // console.log('Picker Data : ', countries)
 
     return (
         <FormControl className={styles.selectOption}>

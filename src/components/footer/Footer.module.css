@@ -1,0 +1,30 @@
+/*Footer of this app*/
+.footer{
+    display: grid;
+    background: rgba(1, 64, 1, 0.8);
+    border-radius: 20px 20px 0 0;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    line-height: 0;
+}
+.footerTxt span{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.asadanik{
+    background: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 2px 10px;
+    font-size: 25px !important;
+}
+.link{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    background: black;
+    padding: 5px;
+}

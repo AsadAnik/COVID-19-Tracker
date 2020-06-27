@@ -4,6 +4,7 @@ import Loading from './HOC';
 import { fetchData } from './API';
 import { Cards, Chart, Picker } from './components/index';
 import styles from './App.module.css';
+import Footer from './components/footer/Footer';
 
 class App extends React.Component {//Components...
   state = {//Application State..
@@ -24,20 +25,32 @@ class App extends React.Component {//Components...
     this.setState({ data: dataFetch, country: country });
   }
 
- //Rendering Method... 
+  ///To showing the country Name on Header of Application..
+  showCountryName = (country) => (
+    country ? <h1>{country}</h1>
+      :
+      <h1>Global</h1>
+  )
+
+  //Rendering Method... 
   render() {
     const { data, country } = this.state;
 
-    // console.log('Changed Values ', data)
+    // console.log('Changed Values ', data.lastUpdate)
     // console.log('Change Country ', country)
 
-    return (//Returning this statement..
+    return (
       <Loading>
         <div className={styles.container}>
+          <div className={styles.headingText}>
+            {this.showCountryName(country)}
+          </div>
 
           <Cards data={data} />
           <Picker changeHandler={this.handleChange} />
           <Chart dataChart={data} countryChart={country} />
+
+          <Footer />
         </div>
       </Loading>
     )

@@ -1,4 +1,18 @@
 .selectOption{
     width: 30%;
     margin-bottom: 30px !important;
+    font-weight: bold;
+}
+option{
+    background-color: green;
+    text-align: center;
+}
+
+@media (max-width: 770px){
+    .selectOption{
+        width: 100%;
+        border-radius: 5px;
+        background-color: green;
+        font-weight: bold;
+    }
 }
