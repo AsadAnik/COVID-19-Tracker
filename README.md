@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   ## Chart.JS -> `yarn add react-chartjs-2 chart.js`
   ## CountUp -> `yarn add react-countup`
   
-## API Reference -> `https://covid19.mathdro.id/api`
+## API Reference -> [https://covid19.mathdro.id/api]
 
 ## Some Demo Images of this APP...
  
